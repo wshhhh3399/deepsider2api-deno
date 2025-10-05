@@ -32,7 +32,7 @@ app.use(async (ctx, next) => {
 });
 
 // Configuration
-const DEEPSIDER_API_BASE = "https://api.chargpt.ai/api/v2";
+const DEEPSIDER_API_BASE = "https://api5.deepsider.net/api/v2";
 let TOKEN_INDEX = 0;
 
 // Model mapping table
